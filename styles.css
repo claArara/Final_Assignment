@@ -1,0 +1,73 @@
+/*link from bootstrap icons*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wdth,wght,YTLC@0,6..12,75..125,200..1000,440..540;1,6..12,75..125,200..1000,440..540&family=Special+Gothic+Expanded+One&display=swap');
+
+:root{
+    --principal-font: "Nunito Sans";
+    --secondary-font: "Special Gothic Expanded One";
+    --tertiary-font: "Manrope";
+}
+
+@media (max-width: 302px) {
+    .logo {
+        max-width: 103px;
+    }
+}
+
+.logo {
+    width: 272px;
+    height: auto;
+}
+
+header h1 {
+    font-family: var(--secondary-font);
+    margin: 10px;
+}
+
+h3 {
+    font-family: var(--tertiary-font);
+}
+
+h2 {
+    font-family: var(--secondary-font);
+}
+
+body {
+    font-family: var(--principal-font);
+    font-weight: 400;
+    background-color: rgb(245, 245, 245);
+    font-size: 1rem;
+}
+
+h5 {
+    font-weight: 600;
+}
+
+.btn {
+    font-family: var(--tertiary-font);
+    font-weight: 500;
+}
+
+.nav-link {
+    font-family: var(--tertiary-font);
+}
+
+.modal-title {
+    font-weight: 700;
+}
+
+.bi-sparkle {
+    animation-name: float;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    display: inline-block;
+}
+
+@keyframes float {
+  0% { transform: translateY(-3px); }
+  100% { transform: translateY(3px); }
+}

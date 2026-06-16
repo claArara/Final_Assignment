@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final assignment</title>
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Stylesheet link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/images/logo.png" alt="Logo" class="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav justify-content-end">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#albums">
+                            Albums
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://ibighit.com/en/txt/profile/">
+                            Official website
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="container-fluid bg-primary-subtle p-1">
+        <h1 class="display-3 fw-bold text-center">A dream of five stars</h1>
+        <h3 class="display-6 text-center">Meet TOMORROW X TOGETHER</h3>
+        <div class="d-flex justify-content-center p-3">
+            <button href="https://open.spotify.com/intl-es/artist/0ghlgldX5Dd6720Q3qFyQB?si=O29PINGlSeyvGCh6gW1BXg" class="btn btn-dark text-light rounded-3"><i class="bi bi-spotify"></i> Listen on Spotify</button>
+        </div>
+    </header>
+
+    <!-- Carousel -->
+    <section class="container mb-5">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/c1.png" class="d-block w-100" alt="Thorn">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://media.gq.com.mx/photos/64110495b8c90aba5472a517/16:9/w_2560%2Cc_limit/Tomorrow_X_Together_GQ_HYPE_COVER.jpeg" class="d-block w-100" alt="GQ">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/c3.png" class="d-block w-100" alt="LL">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/c4.png" class="d-block w-100" alt="GQ2">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/c5.png" class="d-block w-100" alt="DW">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade rounded-3" id="7y" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary-subtle">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">7TH YEAR: A Moment of Stillness in the Thorns</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>Celebrating their seventh year as a group and their first contract renewal, TOMORROW X TOGETHER's 8th mini album encapsulates the time the members have spent together. Standing at the threshold of a new chapter, they now take a step back to reflect on where they are now.</p>
+                    
+                    <div class="d-grid">
+                    <a class="btn rounded-3 btn-dark btn-light text-light" href="https://open.spotify.com/intl-es/album/55LBvRI4i4FUUf5dYKVMHk?si=_Rmk3qyJRD-93jDzOB50GQ"><i class="bi bi-spotify"></i> Listen on Spotify</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container-md">
+        <!-- About Section -->
+        <div class="container mb-5" id="about">
+            <h2>About <i class="bi bi-stars bi-sparkle"></i></h2>
+            <p>TOMORROW X TOGETHER (pronounced <em>Tomorrow By Together</em>, abbreviated as TXT) is a Korean boygroup under BigHit Music. Conformed by members Soobin, Yeonjun, Beomgyu, Taehyun and Hueningkai, the group made their debut in 2019 with their first EP <strong>The Dream Chapter: STAR</strong>, and have since captured the attention of millions of fans around the world. </p>
+            <p>Their songs cover a wide range of music genres, including K-Pop, Pop, Rock, R&B, Hip Hop and House. TXT's music tells the story about five boys who are brought together by a single dream. Their albums are divided into chapters, each conveying a series of emotions and events the protagonists of the story go through.</p>
+        </div>
+
+        <!-- Grid section -->
+        <div class="container" id="albums">
+            <h2>Albums <i class="bi bi-stars bi-sparkle"></i></h2>
+            <div class="row">
+                <section class="col-sm-4 mb-sm-3 mb-5">
+                    <div class="card h-100 rounded-3">
+                        <img src="/images/7thyear.png" alt="7thyear" class="rounded-top-3">
+                        <div class="card-body">
+                            <h5 class="card-title">7TH YEAR: A Moment of Stillness in the Thorns</h5>
+                            <a type="button" class="btn btn-dark rounded-3 btn-light text-light" href="#7y" data-bs-target="#7y" data-bs-toggle="modal">About this album</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-sm-4 mb-sm-3 mb-5">
+                    <div class="card h-100 rounded-3">
+                        <img src="/images/together.jpg" alt="together" class="rounded-top-3">
+                        <div class="card-body">
+                            <h5 class="card-title">The Star Chapter: TOGETHER</h5>
+                            <a class="btn rounded-3 btn-dark btn-light text-light" href="#" >About this album</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-sm-4 mb-sm-3 mb-5">
+                    <div class="card h-100 rounded-3">
+                        <img src="images/sanctuary.jpg" alt="sanctuary" class="rounded-top-3">
+                        <div class="card-body">
+                            <h5 class="card-title">The Star Chapter: SANCTUARY</h5>
+                            <a class="btn rounded-3 btn-dark btn-light text-light" href="#">About this album</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-sm-4 mb-sm-3 mb-5">
+                    <div class="card h-100 rounded-3">
+                        <img src="/images/tomorrow.jpg" alt="tomorrow" class="rounded-top-3">
+                        <div class="card-body">
+                            <h5 class="card-title">minisode3: TOMORROW</h5>
+                            <a class="btn rounded-3 btn-dark btn-light text-light" href="#">About this album</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-sm-4 mb-sm-3 mb-5">
+                    <div class="card h-100 rounded-3">
+                        <img src="/images/freefall.jpg" alt="freefall" class="rounded-top-3">
+                        <div class="card-body">
+                            <h5 class="card-title">The Name Chapter: FREEFALL</h5>
+                            <a class="btn rounded-3 btn-dark btn-light text-light" href="#">About this album</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-sm-4 mb-sm-3 mb-5">
+                    <div class="card h-100 rounded-3">
+                        <img src="/images/temptation.png" alt="temptation" class="rounded-top-3">
+                        <div class="card-body">
+                            <h5 class="card-title">The Name Chapter: TEMPTATION</h5>
+                            <a class="btn rounded-3 btn-dark btn-light text-light" href="#">About this album</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-sm-4 mb-sm-3 mb-5">
+                    <div class="card h-100 rounded-3">
+                        <img src="/images/thursdayschild.png" alt="thursdayschild" class="rounded-top-3">
+                        <div class="card-body">
+                            <h5 class="card-title">minisode2: Thursday's Child</h5>
+                            <a class="btn rounded-3 btn-dark btn-light text-light" href="#">About this album</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-sm-4 mb-sm-3 mb-5">
+                    <div class="card h-100 rounded-3">
+                        <img src="/images/foe.jpg" alt="foe" class="rounded-top-3">
+                        <div class="card-body">
+                            <h5 class="card-title">The Chaos Chapter: FIGHT OR ESCAPE</h5>
+                            <a class="btn rounded-3 btn-dark btn-light text-light" href="#">About this album</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-sm-4 mb-sm-3 mb-5">
+                    <div class="card h-100 rounded-3">
+                        <img src="/images/freeze.jpg" alt="freeze" class="rounded-top-3">
+                        <div class="card-body">
+                            <h5 class="card-title">The Chaos Chapter: FREEZE</h5>
+                            <a class="btn rounded-3 btn-dark btn-light text-light" href="#">About this album</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-sm-4 mb-sm-3 mb-5">
+                    <div class="card h-100 rounded-3">
+                        <img src="/images/bluehour.jpg" alt="bluehour" class="rounded-top-3">
+                        <div class="card-body">
+                            <h5 class="card-title">minisode1: Blue Hour</h5>
+                            <a class="btn rounded-3 btn-dark btn-light text-light" href="#">About this album</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-sm-4 mb-sm-3 mb-5">
+                    <div class="card h-100 rounded-3">
+                        <img src="/images/eternity.jpg" alt="eternity" class="rounded-top-3">
+                        <div class="card-body">
+                            <h5 class="card-title">The Dream Chapter: ETERNITY</h5>
+                            <a class="btn rounded-3 btn-dark btn-light text-light" href="#">About this album</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-sm-4 mb-sm-3 mb-5">
+                    <div class="card h-100 rounded-3">
+                        <img src="/images/magic.jpg" alt="magic" class="rounded-top-3">
+                        <div class="card-body">
+                            <h5 class="card-title">The Dream Chapter: MAGIC</h5>
+                            <a class="btn rounded-3 btn-dark btn-light text-light" href="#">About this album</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-sm-4 mb-sm-3 mb-5">
+                    <div class="card h-100 rounded-3">
+                        <img src="/images/star.jpg" alt="star" class="rounded-top-3">
+                        <div class="card-body">
+                            <h5 class="card-title">The Dream Chapter: STAR</h5>
+                            <a class="btn rounded-3 btn-dark btn-light text-light" href="#">About this album</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-primary-subtle p-5">
+        <p class="text-center">Made by Clara Giralt Font</p>
+        <p class="fw-semibold text-center">© 2026 BigHit Music / HYBE.</p>
+    </footer>
+
+    <!-- Bootstraps JS link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+</body>
+</html>
