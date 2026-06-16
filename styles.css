@@ -9,15 +9,15 @@
     --tertiary-font: "Manrope";
 }
 
-@media (max-width: 302px) {
+@media (max-width: 768px) {
     .logo {
-        max-width: 103px;
+        height: 35px;
     }
 }
 
 .logo {
-    width: 272px;
-    height: auto;
+    width: auto;
+    height: 50px;
 }
 
 header h1 {
